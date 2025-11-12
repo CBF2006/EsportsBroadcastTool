@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Esports Broadcast Tool</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>
-            Hello World
-        </h1>
+        <div class="overlay">
+            <div class="team-left box">
+                <span class="team-name" id="team-left">
+                    Team Left
+                </span>
+                <span class="team-score" id="score-left">
+                    0
+                </span>
+            </div>
+            <div class="team-2 box">
+                <span class="team-score" id="score-right">
+                    0
+                </span>
+                <span class="team-name" id="team-right">
+                    Team Right
+                </span>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
